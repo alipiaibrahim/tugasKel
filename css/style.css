@@ -1,4 +1,15 @@
-#biru{
-    background-color: blue;
-    color: white;
+#biru {
+  background-color: blue;
+  color: white;
+}
+/* untuk semua menu agar diam ditempat
+menggunakan padding-top disetiap section*/
+
+/* navbar */
+.nav-item {
+  padding-right: 20px;
+}
+
+.caption {
+  padding-top: 60px;
 }
