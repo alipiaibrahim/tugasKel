@@ -13,3 +13,13 @@ menggunakan padding-top disetiap section*/
 .caption {
   padding-top: 60px;
 }
+
+@media (min-width: 1000px) {
+  .card {
+    width: 20rem;
+  }
+}
+
+.navbar {
+  background-color: #da70d6;
+}

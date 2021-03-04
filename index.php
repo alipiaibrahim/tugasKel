@@ -11,15 +11,16 @@
 
 <body>
      <!-- navbar -->
+     <!-- <div id="navbar"> -->
+
  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
            <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light">
+      
      
                    <a class="navbar-brand" href="#">
-                          <img src="img/1navbar.jpg" alt="" width="30" height="24" class="d-inline-block align-top">
+                          <!-- <img src="img/1navbar.jpg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
                FAMEAL
                 </a>
-        </nav>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,7 +28,7 @@
            
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll nav justify-content-end ms-auto"
-                    style="--bs-scroll-height: 100px;">
+                        style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Food</a>
                     </li>
@@ -52,10 +53,14 @@
             </div>
         </div>
     </nav>
+ 
 
     <!-- akhir navbar -->
 
     <!-- carousel -->
+    <div class="jumbotron">
+
+    
     <section class="carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -68,14 +73,14 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/6coursel.jpg" class="d-block w-100">
+                <img src="img/coba.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>“One should eat to live, not live to eat.”</h5>
                     <p>-Moliere-</p> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/5coursel.jpg" class="d-block w-100">
+                <img src="img/coba1.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>“Food is for eating, and good food is to be enjoyed... I think food is, actually, very beautiful
                         in itself.”</h5>
@@ -83,7 +88,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/8coursel.jpg" class="d-block w-100">
+                <img src="img/coba2.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>“The chief pleasure in eating does not consist in costly seasoning, or exquisite flavor, but in
                         yourself.”</h5>
@@ -103,6 +108,7 @@
     </button>
     </div>
     </section>
+    </div>
     <!-- akhir carousel -->
 
     <!-- caption -->
@@ -120,26 +126,27 @@
     <section class="menu">
     <div class="container">
         <div class="row"style="padding-top:35px;">
-             <div class="col"> <div class="card " style="width: 16rem;">
+             <div class="col"> 
+                 <div class="card">
             <img src="img/2menu.jpg" class="card-img-top" alt="...">
             <div class="card">
     
          </div>
     </div></div>
-              <div class="col"> <div class="card " style="width: 16rem;">
+              <div class="col"> <div class="card ">
             <img src="img/3menu.jpg" class="card-img-top" alt="...">
             <div class="card">
     
   </div>
   </div></div>
 
-              <div class="col"> <div class="card " style="width: 16rem;">
+              <div class="col"> <div class="card ">
             <img src="img/4menu.jpg" class="card-img-top" alt="...">
             <div class="card">
     
   </div>
 </div></div>
-              <div class="col"> <div class="card " style="width: 16rem;">
+              <div class="col"> <div class="card ">
             <img src="img/6menu.jpg" class="card-img-top" alt="...">
             <div class="card">
     
@@ -150,6 +157,8 @@
     </section>
 
     <!-- akhir menu -->
+
+    
     
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
