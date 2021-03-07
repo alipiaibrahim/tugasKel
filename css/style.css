@@ -14,12 +14,12 @@ menggunakan padding-top disetiap section*/
   padding-top: 60px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 2000px) {
   .card {
-    width: 20rem;
+    width: 18rem;
   }
 }
 
-.navbar {
-  background-color: #da70d6;
+.bg-light {
+  background-colo: rgba(0, 0, 0, 0) !important;
 }
