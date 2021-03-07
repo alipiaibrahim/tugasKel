@@ -17,7 +17,7 @@
            <!-- Image and text -->
       
      
-                   <a class="navbar-brand" href="#">
+                   <a class="navbar-brand" href="#"">
                           <!-- <img src="img/1navbar.jpg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
                FAMEAL
                 </a>
@@ -157,6 +157,11 @@
     </section>
 
     <!-- akhir menu -->
+
+    <!-- menu makanan -->
+    <section>
+    </section>
+    <!-- akhir menu makanan -->
 
     
     
