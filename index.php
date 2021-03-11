@@ -8,16 +8,105 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+    <!--css -->
+    <style>
+       
+       .navbar-brand {
+            padding-left:50px;
+           
+       }
+       
+            @media (min-width: 900px) {
+            .card {
+                width: 16rem;
+            }
+            }
 
+            .nav-item a {
+                text-transform: uppercase;
+                color: grey !important;
+                font: "Roboto";
+                font-size: 15px;
+                letter-spacing: 1,5px;
+                text-decoration: none;
+                outline: none;
+                margin: 0 34px;
+                cursor: pointer;
+                }
+
+            .nav-item a:hover,
+            .nav-item a:active {
+                text-decoration: underline;
+                font-weight: bold;
+                }
+
+                .box-title-content {
+                    margin: 2rem auto 5rem auto;
+                    padding: 2rem;
+                    width: 600px;
+                    text-align: center;
+                    background-color: transparent;
+                    border: 2px solid black;
+               
+        
+                    /* margin: 10px -15px -15px; */
+                }
+
+             /* coba */
+             .container-fluid {
+                position: relative;
+                width: 50%;
+                }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container-fluid:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+          
+}        
+                
+    </style>
+    <!-- akhir css -->
 <body>
      <!-- navbar -->
-     <!-- <div id="navbar"> -->
-
- <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
            <!-- Image and text -->
-      
-     
-                   <a class="navbar-brand" href="#"">
+                <a class="navbar-brand" href="#">
                           <!-- <img src="img/1navbar.jpg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
                FAMEAL
                 </a>
@@ -58,8 +147,7 @@
     <!-- akhir navbar -->
 
     <!-- carousel -->
-    <div class="jumbotron">
-
+   
     
     <section class="carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -125,7 +213,7 @@
     <!-- menu -->
     <section class="menu">
     <div class="container">
-        <div class="row"style="padding-top:35px;">
+        <div class="row"style="padding-top:20px;">
              <div class="col"> 
                  <div class="card">
             <img src="img/2menu.jpg" class="card-img-top" alt="...">
@@ -156,15 +244,41 @@
     </div>
     </section>
 
-    <!-- akhir menu -->
+    <!-- akhir menu  -->
 
-    <!-- menu makanan -->
-    <section>
+     <!-- menu makanan  -->
+     <section class="food"style="padding-top:40px">
+          <div class="container-custome shop-page">
+            <div class="cof-header">
+                <div class="box-title">
+                    <div class="box-title-content">
+                        <p style="font-size: 28px; font-weight: bold;" class="section-title">Food From Indonesia </p>
+                     
+                    </div>
+                </div>
+        <div class="list-product">
+            <div class="container-fluid">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+            </div>
+            </div>
+
     </section>
-    <!-- akhir menu makanan -->
-
+     <!-- akhir menu makanan  -->
     
     
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+
+    <!-- <script>
+        $(document).scroll(function(){
+            if($(window).scrollTop() > 50){
+                $('#navbar').removeClass('bg-light').addClass('bg-nontrans');
+            } else if ($(window).scrollTop() <= 50){
+                $('#navbar').removeClass('bg-nontrans').addClass('bg-light');
+            }
+        });
+    </script> -->
 </body>
 </html>
