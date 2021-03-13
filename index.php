@@ -42,7 +42,7 @@
 
                 .box-title-content {
                     margin: 2rem auto 5rem auto;
-                    padding: 2rem;
+                    padding: 1rem;
                     width: 600px;
                     text-align: center;
                     background-color: transparent;
@@ -55,51 +55,51 @@
              /* coba */
              .container-fluid {
                 position: relative;
-                width: 50%;
+                width: 25%;
                 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+                .image {
+                display: block;
+                width: 100%;
+                height: auto;
+                }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
+                .overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color:  grey !important;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                -webkit-transform: scale(0);
+                -ms-transform: scale(0);
+                transform: scale(0);
+                -webkit-transition: .3s ease;
+                transition: .3s ease;
+                }
 
-.container-fluid:hover .overlay {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
+                .container-fluid:hover .overlay {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+                }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+                .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+               
 
-          
-}        
-                
+                        
+                }        
+                                
     </style>
     <!-- akhir css -->
 <body>
@@ -247,7 +247,7 @@
     <!-- akhir menu  -->
 
      <!-- menu makanan  -->
-     <section class="food"style="padding-top:40px">
+     <section class="food" id="food" style="padding-top:80px">
           <div class="container-custome shop-page">
             <div class="cof-header">
                 <div class="box-title">
@@ -256,15 +256,87 @@
                      
                     </div>
                 </div>
-        <div class="list-product">
+               
+      
+
+      <section class="menu-makanan">  
+      <table>
+      <tr>
+                <td>
+         <div class="list-product">
             <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
             <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
             </div>
             </div>
+            </div>
+            </div>
+                    </td>
+                    <td>
+            <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/rendang-sumatraBarat.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </td>
 
-    </section>
+            <td>
+            <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/nasiLiwet-jawa.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </td>
+
+            <td>
+            <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/rawon-jawatimur.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </td>
+                </tr>
+            </table>   
+    </section>  
+ </section>
+  
      <!-- akhir menu makanan  -->
     
     
