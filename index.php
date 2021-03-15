@@ -10,7 +10,9 @@
 </head>
     <!--css -->
     <style>
-       
+       body,html {
+        height: 100%;
+       }
        .navbar-brand {
             padding-left:50px;
            
@@ -24,7 +26,7 @@
 
             .nav-item a {
                 text-transform: uppercase;
-                color: grey !important;
+                /* color: grey !important; */
                 font: "Roboto";
                 font-size: 15px;
                 letter-spacing: 1,5px;
@@ -47,6 +49,7 @@
                     text-align: center;
                     background-color: transparent;
                     border: 2px solid black;
+                    color: white;
                
         
                     /* margin: 10px -15px -15px; */
@@ -69,7 +72,8 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                background-color:  grey !important;
+                background-image: linear-gradient(to bottom right,transparent, #E7A195);
+                /* background-color:  grey !important; */
                 overflow: hidden;
                 width: 100%;
                 height: 100%;
@@ -107,8 +111,8 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
            <!-- Image and text -->
                 <a class="navbar-brand" href="#">
-                          <!-- <img src="img/1navbar.jpg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
-               FAMEAL
+                          <img src="img/1nav.png" alt="" width="60" height="24" class="d-inline-block align-top">
+               
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -235,7 +239,7 @@
   </div>
 </div></div>
               <div class="col"> <div class="card ">
-            <img src="img/6menu.jpg" class="card-img-top" alt="...">
+            <img src="img/1menu.jpg" class="card-img-top" alt="...">
             <div class="card">
     
   </div>
@@ -247,7 +251,9 @@
     <!-- akhir menu  -->
 
      <!-- menu makanan  -->
-     <section class="food" id="food" style="padding-top:80px">
+     <section class="food" id="food" style="padding-top:80px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh;>
+    
+        
           <div class="container-custome shop-page">
             <div class="cof-header">
                 <div class="box-title">
@@ -333,8 +339,90 @@
             </div>
             </td>
                 </tr>
+                </div>
             </table>   
+
+
+            
+      <table>
+      <tr>
+                <td>
+         <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+                    </td>
+
+                    <td>
+         <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+                    </td>
+
+                    <td>
+         <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+                    </td>
+
+                    <td>
+         <div class="list-product">
+            <div class="container-fluid">
+            <div class="row"style="padding-bottom:-1000px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text">hello world</div>
+                <div class="card">
+                </div>
+            </div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+                    </td>
+
+                    
+        </tr>
+            </table>
     </section>  
+
  </section>
   
      <!-- akhir menu makanan  -->
