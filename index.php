@@ -34,12 +34,14 @@
                 outline: none;
                 margin: 0 34px;
                 cursor: pointer;
+               
                 }
 
             .nav-item a:hover,
             .nav-item a:active {
                 text-decoration: underline;
                 font-weight: bold;
+                
                 }
 
                 .box-title-content {
@@ -50,6 +52,8 @@
                     background-color: transparent;
                     border: 2px solid black;
                     color: white;
+                    
+                    
                
         
                     /* margin: 10px -15px -15px; */
@@ -58,7 +62,8 @@
              /* coba */
              .container-fluid {
                 position: relative;
-                width: 25%;
+                width: 30%;
+                
                 }
 
                 .image {
@@ -82,12 +87,14 @@
                 transform: scale(0);
                 -webkit-transition: .3s ease;
                 transition: .3s ease;
+                
                 }
 
                 .container-fluid:hover .overlay {
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
+               
                 }
 
                 .text {
@@ -251,14 +258,14 @@
     <!-- akhir menu  -->
 
      <!-- menu makanan  -->
-     <section class="food" id="food" style="padding-top:80px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh;>
+     <section class="food" id="food" style="padding-top:80px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
     
         
           <div class="container-custome shop-page">
             <div class="cof-header">
                 <div class="box-title">
                     <div class="box-title-content">
-                        <p style="font-size: 28px; font-weight: bold;" class="section-title">Food From Indonesia </p>
+                        <p style="font-size: 35px; font-weight: bold;" class="section-title">Food From Indonesia </p>
                      
                     </div>
                 </div>
@@ -276,7 +283,11 @@
                  <div class="card">
             <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
             <div class="overlay">
-                <div class="text">hello world</div>
+                <div class="text">
+                <p>Papeda</p>
+                <hr>
+                <p>Papua</p>
+                </div>
                 <div class="card">
                 </div>
             </div></div>
@@ -343,7 +354,7 @@
             </table>   
 
 
-            
+        <div class="makanan2" style="padding-top:50px;"> 
       <table>
       <tr>
                 <td>
@@ -352,7 +363,7 @@
             <div class="row"style="padding-bottom:-1000px;">
              <div class="col"> 
                  <div class="card">
-            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <img src="./img/lemang-medan2.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="text">hello world</div>
                 <div class="card">
@@ -370,7 +381,7 @@
             <div class="row"style="padding-bottom:-1000px;">
              <div class="col"> 
                  <div class="card">
-            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <img src="./img/Ganganmanuk-kalimantan.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="text">hello world</div>
                 <div class="card">
@@ -388,7 +399,7 @@
             <div class="row"style="padding-bottom:-1000px;">
              <div class="col"> 
                  <div class="card">
-            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <img src="./img/nasiayamsemarang-semarang.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="text">hello world</div>
                 <div class="card">
@@ -406,7 +417,7 @@
             <div class="row"style="padding-bottom:-1000px;">
              <div class="col"> 
                  <div class="card">
-            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
+            <img src="./img/gadogado-betawi.jpg" alt="Avatar" class="image">
             <div class="overlay">
                 <div class="text">hello world</div>
                 <div class="card">
@@ -421,7 +432,8 @@
                     
         </tr>
             </table>
-    </section>  
+   </div> 
+    </section>    
 
  </section>
   
