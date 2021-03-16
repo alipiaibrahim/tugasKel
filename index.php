@@ -229,23 +229,27 @@
                             </div>
                         </td>
                         <td>
-                            <h4>Produk</h4>
+                        <h4>Menu</h4>
                             <ul>
-                                <li>Pinjaman Tunai</li>
-                                <li>Akucicil</li>
-                                <li>Layanan Kami</li>
+                                <li>Home</li>
+                                <li>Food</li>
+                                <li>Drink</li>
+                                <li>Dessert</li>
+                                <li>Snacks</li>
+                                <li>About</li>
                             </ul>
                         </td>
                         <td>
-                            <h4>Artikel</h4>
+                            <h4>Product</h4>
                             <ul>
-                                <li>Seputar Keuangan</li>
-                                <li>Berita</li>
-                                <li>Blog</li>
+                                <li>Food</li>
+                                <li>Drink</li>
+                                <li>Dessert</li>
+                                <li>Snacks</li>
                             </ul>
                         </td>
                         <td>
-                            <h4>Akulaku</h4>
+                            <h4>Female</h4>
                             <ul>
                                 <li>Tentang</li>
                                 <li>Bergabunglah</li>
@@ -275,6 +279,9 @@
         </div>
     </div>
 </div>
+        <div class="site-footer">
+            <p style="letter-spacing: 1px;">Copyright © 2021 Female Court. All Rights Reserved </p>
+        </div>
 </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
