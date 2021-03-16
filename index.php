@@ -45,13 +45,14 @@
                 }
 
                 .box-title-content {
-                    margin: 2rem auto 5rem auto;
+                    margin: -1.5rem auto 5rem auto;
                     padding: 1rem;
                     width: 600px;
                     text-align: center;
                     background-color: transparent;
                     border: 2px solid black;
                     color: white;
+                   
                     
                     
                
@@ -118,7 +119,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
            <!-- Image and text -->
                 <a class="navbar-brand" href="#">
-                          <img src="img/1nav.png" alt="" width="60" height="24" class="d-inline-block align-top">
+                          <img src="img/8nav.png" alt="" width="140" height="40" class="d-inline-block align-top">
                
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -258,14 +259,14 @@
     <!-- akhir menu  -->
 
      <!-- menu makanan  -->
-     <section class="food" id="food" style="padding-top:80px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
+     <section class="food" id="food" style="padding-top:100px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
     
         
           <div class="container-custome shop-page">
             <div class="cof-header">
                 <div class="box-title">
                     <div class="box-title-content">
-                        <p style="font-size: 35px; font-weight: bold;" class="section-title">Food From Indonesia </p>
+                        <p style="font-size: 30px; font-weight: bold; text-align:center; " class="section-title">Food From Indonesia </p>
                      
                     </div>
                 </div>
@@ -441,7 +442,7 @@
                 <div class="text">
                 <p style="font-size:15px; text-align:center">Gado Gado-Betawi</p>
                 <hr>
-                <p style="font-size:10px; text-align:center;" >Makanan dari sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang tanah yang dihaluskan disertai irisan telur</p></div></div>
+                <p style="font-size:10px; text-align:center;" >Makanan dari sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang tanahyang dihaluskan disertai irisan telur</p></div></div>
                 <div class="card">
                 </div>
             </div></div>
