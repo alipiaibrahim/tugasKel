@@ -110,7 +110,16 @@
                
 
                         
-                }        
+                }
+                
+                .food .list-product {
+                    opacity:0;
+
+                }
+
+                .food .list-produk.muncul{
+                    opacity:1;
+                }
                                 
     </style>
     <!-- akhir css -->
@@ -466,14 +475,11 @@
     <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- <script src="./js/bootstrap.min.js"></script> -->
 
-    <!-- <script>
-        $(document).scroll(function(){
-            if($(window).scrollTop() > 50){
-                $('#navbar').removeClass('bg-light').addClass('bg-nontrans');
-            } else if ($(window).scrollTop() <= 50){
-                $('#navbar').removeClass('bg-nontrans').addClass('bg-light');
-            }
-        });
-    </script> -->
+    <script>
+    //paralax menu makanan
+    if( wScroll > 100 ) {
+        console.log('ok'); 
+    } 
+    </script>
 </body>
 </html>
