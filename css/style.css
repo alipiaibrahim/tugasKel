@@ -54,7 +54,7 @@
   }
   */
 .btn-group{
-    width: 1268px;
+    width: 500px;
     border-radius: 0px;
     margin-left: -15px;  
 }
@@ -69,9 +69,11 @@
     height: 10px;
 }
 .ah1{
+    color: black;
     text-align: center;
 }
 .p1{
+    color: black;
     text-align: justify;
 }
 .footer-widget{
@@ -86,4 +88,22 @@
 .label{
     margin-right: 90px;
 }
+.article{
+    box-shadow:0 0 5px rgb(255, 254, 254));
+    padding:50px;
+    border-radius:8px;
+    margin:90px 0 30px 0;
+    display:inline-block;
+    width:60%;
+    margin-left: 250px;
+    color: linear-gradient(rgba(241, 237, 237, 0.966), rgb(253, 249, 249));
+}
+.aboutt{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    box-shadow: 5px 2px 4px rgb(0 0 0);
 
+}
