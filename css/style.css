@@ -77,7 +77,8 @@
     text-align: justify;
 }
 .footer-widget{
-    background-color: blue;
+    background-color: black;
+    height: 500px;
 }
 .single-footer-widget{
     margin-left: 10px;
@@ -115,7 +116,8 @@
     -moz-border-radius: 200px;
 }
 .footer-section{
-    margin-top: 10px;
+    margin-top: 500px;
+    height: 1000px;
 }
 .label1{
     margin-left: 50px;
@@ -130,6 +132,6 @@
     background: url("../img/bg.jpg") no-repeat;
     width: 100%;
     overflow: hidden;
-    
+    height: 500px;
 }
 
