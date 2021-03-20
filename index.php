@@ -30,6 +30,11 @@
         </div>
     </div>
 <br/></br></br></br>
+<!-- <div class="image">
+        <img class="rounded-image" src="img/draemon1.jpg" style="width: 80px; height: 80px;">
+        <img class="rounded-image" src="img/hello1.jpg" style="width: 80px; height: 80px;">
+        <img class="rounded-image" src="img/kerro.jpg" style="width: 80px; height: 80px;">
+</div> -->
 
 <!-- Footer -->
 <footer class="footer-section spad">
@@ -51,9 +56,8 @@
                             </div>
                         </td>
                         <td>
-                        <h4>Menu</h4>
+                        <h4>Female</h4>
                             <ul>
-                                <li>Home</li>
                                 <li>Food</li>
                                 <li>Drink</li>
                                 <li>Dessert</li>
@@ -71,20 +75,12 @@
                             </ul>
                         </td>
                         <td>
-                            <h4>Female</h4>
+                            <h4>Help</h4>
                             <ul>
-                                <li>Tentang</li>
-                                <li>Bergabunglah</li>
-                                <li>Partner Kami</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <h4>Bantuan</h4>
-                            <ul>
+                                <li>About</li>
+                                <li>Message</li>
                                 <li>PAQ</li>
-                                <li>Hubungi</li>
-                                <li>Privasi</li>
-                                <li>Persyaratan</li>
+                                <li>Privacy Policy</li>
                             </ul>
                         </td>
                         <td>
