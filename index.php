@@ -8,11 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 
 <body>
     <!-- About -->
-        <div id="about" class="aboutt">
+        <!-- <div id="about" class="aboutt">
         <div class="article">
             <h1 class="ah1">About</h1>
                 <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quam cum distinctio, sunt dolor vitae accusamus, 
@@ -28,13 +29,27 @@
                     Cupiditate est ex eum! Magnam.</p>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div id="container2" class="container2">
+		<div id="scene" class="scene">
+			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;"></div>
+            <div class="article">
+            <h1 class="ah1">About</h1>
+                <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quam cum distinctio, sunt dolor vitae accusamus, 
+                nihil est cupiditate aliquid molestiae porro quis soluta perspiciatis, nisi enim voluptatibus velit officia.</p>
+            <div class="btn-group">
+                <button type="button" class="btn" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    <img src="img/panah.png" class="panah">
+                    Left-aligned but right aligned when large screen
+                </button>
+                <p class="dropdown-menu dropdown-menu-lg-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci velit sequi iste, dolorem labore distinctio quibusdam 
+                    enim harum explicabo veniam, error amet aspernatur debitis libero. 
+                    Cupiditate est ex eum! Magnam.</p>
+            </div>
+        </div>
+	</div>
 <br/></br></br></br>
-<!-- <div class="image">
-        <img class="rounded-image" src="img/draemon1.jpg" style="width: 80px; height: 80px;">
-        <img class="rounded-image" src="img/hello1.jpg" style="width: 80px; height: 80px;">
-        <img class="rounded-image" src="img/kerro.jpg" style="width: 80px; height: 80px;">
-</div> -->
 
 <!-- Footer -->
 <footer class="footer-section spad">
@@ -102,6 +117,10 @@
         </div>
 </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
 </body>
 
 </html>
