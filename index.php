@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script type="text/javascript" src="../js/scroll.js"></script>
     <script type="text/javascript" src="../js/ScrollTrigger.min.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
 </head>
     <!--css -->
@@ -106,7 +107,7 @@
                 -webkit-transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
-               
+                text-align:center;
 
                         
                 }
@@ -140,19 +141,19 @@
                 <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll nav justify-content-end ms-auto"
                         style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Food</a>
+                        <a class="nav-link" href="#food">Food</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Drink</a>
+                        <a class="nav-link" href="#minuman">Drink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Desserts</a>
+                        <a class="nav-link" href="#dessert">Desserts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Snacks</a>
+                        <a class="nav-link" href="#snack">Snacks</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#container2">About</a>
                     </li>
 
                 </ul>
@@ -182,14 +183,14 @@
             <div class="carousel-item active">
                 <img src="img/coba.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h5>“One should eat to live, not live to eat.”</h5>
+                     <h5>“One should eat to live, not live to eat.”</h5>
                     <p>-Moliere-</p> -->
                 <!-- </div>
             </div>
             <div class="carousel-item">
                 <img src="img/coba1.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h5>“Food is for eating, and good food is to be enjoyed... I think food is, actually, very beautiful
+                    <h5>“Food is for eating, and good food is to be enjoyed... I think food is, actually, very beautiful
                         in itself.”</h5>
                     <p>-Delia Smith-</p> -->
                 <!-- </div>
@@ -206,11 +207,11 @@
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
         <!-- <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
         <!-- <span class="visually-hidden">Next</span>
     </button>
     </div>
@@ -238,7 +239,7 @@
         <div class="row"style="padding-top:20px;">
              <div class="col"> 
                  <div class="card">
-            <img src="img/2menu.jpg" class="card-img-top" alt="...">
+            <img src="img/2menu.jpg" class="card-img-top">
             <div class="card">
     
          </div>
@@ -268,54 +269,6 @@
 
     <!-- akhir menu  -->
 </div>
-
-    <!-- caption -->
-    <section class="caption"style="padding-top:40px;">
-        <div class="col-md-8 mx-auto text-center">
-            <h3>Information About Food By Fameal</h3>
-            <h6>“The chief pleasure in eating does not consist in costly seasoning, or exquisite flavor, but in
-                        yourself.”</h6>
-                    <p>-Horace-</p>
-        </div>
-    </section>
-    <!-- akhir caption -->
-
-    <!-- menu -->
-    <section class="menu">
-    <div class="container">
-        <div class="row"style="padding-top:20px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="img/2menu.jpg" class="card-img-top" alt="...">
-            <div class="card">
-    
-         </div>
-    </div></div>
-              <div class="col"> <div class="card ">
-            <img src="img/3menu.jpg" class="card-img-top" alt="...">
-            <div class="card">
-    
-  </div>
-  </div></div>
-
-              <div class="col"> <div class="card ">
-            <img src="img/4menu.jpg" class="card-img-top" alt="...">
-            <div class="card">
-    
-  </div>
-</div></div>
-              <div class="col"> <div class="card ">
-            <img src="img/1menu.jpg" class="card-img-top" alt="...">
-            <div class="card">
-    
-  </div>
-</div></div>
-         </div>
-    </div>
-    </section>
-
-    <!-- akhir menu  -->
-
     <section class="food" id="food" style="padding-top:100px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
                 
         
@@ -519,7 +472,7 @@
         
            <!-- akhir menu makanan  -->
     <!-- card minuman -->
-    <div class="container">
+    <div class="container" id="minuman">
         <div class="container-custome shop-page best-kopi" id="best-kopi">
             <div class="cof-header">
                 <div class="box-title">
@@ -528,7 +481,7 @@
                     </div>
                 </div>
                 <section class="menu-minuman" style="margin-top:-40px;">
-                    <table>
+                    <table class="container">
                         <tr>
                             <td>
                                 <div class="list-product">
@@ -720,10 +673,10 @@
     <!--akhir drink -->
 
     <!-- awal disert -->
-    <div class="container-custome shop-page best-kopi" id="best-kopi">
+    <div class="container" id="dessert">
         <div class="cof-header">
             <div class="box-title">
-                <div class="box-title-content">
+                <div class="box-title-content" style="margin-top:120px;">
                     <p style="font-size: 28px; font-weight: bold; color:black" class="section-title">All About Dessert </p>
                 </div>
             </div>
@@ -733,7 +686,7 @@
                         <td>
                             <div class="list-product">
                                 <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
-                                    <div class="row" style="padding-bottom:-1000px;">
+                                    <div class="row"  style="padding-bottom:-1000px;">
                                         <div class="col">
                                             <div class="card">
                                                 <img src="img/disert 1.jpg" alt="Avatar" class="image" style="height:220px;">
@@ -919,10 +872,10 @@
     <!-- akhir disert -->
 
     <!-- awal snack -->
-    <div class="container-custome shop-page best-kopi" id="best-kopi">
+    <div class="container" id="snack">
         <div class="cof-header">
             <div class="box-title">
-                <div class="box-title-content">
+                <div class="box-title-content" style="margin-top:120px;">
                     <p style="font-size: 28px; font-weight: bold; color:black;" class="section-title">All About Snack </p>
                 </div>
             </div>
