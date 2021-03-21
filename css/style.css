@@ -189,7 +189,6 @@
     background-color: rgba(232, 193, 84, 0.8);
     background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
 }
-
 .cd-top:hover {
     opacity: 1;
 }
