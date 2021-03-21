@@ -124,22 +124,7 @@
     <!-- akhir css -->
 <body>
     <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
-    <!-- About -->
-        <!-- <div id="about" class="aboutt">
-        <div class="article">
-            <h1 class="ah1">About</h1>
-                <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quam cum distinctio, sunt dolor vitae accusamus, 
-                nihil est cupiditate aliquid molestiae porro quis soluta perspiciatis, nisi enim voluptatibus velit officia.</p>
-            <div class="btn-group">
-                <button type="button" class="btn" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                    <img src="img/panah.png" class="panah">
-                    Left-aligned but right aligned when large screen
-                </button>
-                <p class="dropdown-menu dropdown-menu-lg-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Adipisci velit sequi iste, dolorem labore distinctio quibusdam 
-                    enim harum explicabo veniam, error amet aspernatur debitis libero. 
-                    Cupiditate est ex eum! Magnam.</p>
-navbar -->
+<!-- navbar --> -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
            <!-- Image and text -->
                 <a class="navbar-brand" href="#">
@@ -182,9 +167,7 @@ navbar -->
 
     <!-- akhir navbar -->
 
-    <!-- carousel -->
-   
-    
+    <!-- carousel
     <section class="carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -201,7 +184,7 @@ navbar -->
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>“One should eat to live, not live to eat.”</h5>
                     <p>-Moliere-</p> -->
-                </div>
+                <!-- </div>
             </div>
             <div class="carousel-item">
                 <img src="img/coba1.jpg" class="d-block w-100">
@@ -209,31 +192,82 @@ navbar -->
                     <!-- <h5>“Food is for eating, and good food is to be enjoyed... I think food is, actually, very beautiful
                         in itself.”</h5>
                     <p>-Delia Smith-</p> -->
-                </div>
+                <!-- </div>
             </div>
             <div class="carousel-item">
                 <img src="img/coba2.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-none d-md-block"> -->
                     <!-- <h5>“The chief pleasure in eating does not consist in costly seasoning, or exquisite flavor, but in
                         yourself.”</h5>
                     <p>-Horace-</p> -->
-                </div>
+                <!-- </div>
             </div>
 
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-        <span class="visually-hidden">Previous</span>
+        <!-- <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-        <span class="visually-hidden">Next</span>
+        <!-- <span class="visually-hidden">Next</span>
     </button>
     </div>
     </section>
     </div>
-    <!-- akhir carousel -->
+     akhir carousel  -->
+     <!-- parallax -->
+     <div class="parallax"></div>
+
+<div>
+    <!-- caption -->
+    <section class="caption"style="padding-top:40px;">
+        <div class="col-md-8 mx-auto text-center">
+            <h3>Information About Food By Fameal</h3>
+            <h6>“The chief pleasure in eating does not consist in costly seasoning, or exquisite flavor, but in
+                        yourself.”</h6>
+                    <p>-Horace-</p>
+        </div>
+    </section>
+    <!-- akhir caption -->
+
+    <!-- menu -->
+    <section class="menu">
+    <div class="container">
+        <div class="row"style="padding-top:20px;">
+             <div class="col"> 
+                 <div class="card">
+            <img src="img/2menu.jpg" class="card-img-top" alt="...">
+            <div class="card">
+    
+         </div>
+    </div></div>
+              <div class="col"> <div class="card ">
+            <img src="img/3menu.jpg" class="card-img-top" alt="...">
+            <div class="card">
+    
+  </div>
+  </div></div>
+
+              <div class="col"> <div class="card ">
+            <img src="img/4menu.jpg" class="card-img-top" alt="...">
+            <div class="card">
+    
+  </div>
+</div></div>
+              <div class="col"> <div class="card ">
+            <img src="img/1menu.jpg" class="card-img-top" alt="...">
+            <div class="card">
+    
+  </div>
+</div></div>
+         </div>
+    </div>
+    </section>
+
+    <!-- akhir menu  -->
+</div>
 
     <!-- caption -->
     <section class="caption"style="padding-top:40px;">
@@ -282,215 +316,215 @@ navbar -->
 
     <!-- akhir menu  -->
 
-     <!-- menu makanan  -->
-     <section class="food" id="food" style="padding-top:100px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
-    
+    <section class="food" id="food" style="padding-top:100px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
+                
         
-          <div class="container-custome shop-page">
-            <div class="cof-header">
-                <div class="box-title">
-                    <div class="box-title-content">
-                        <p style="font-size: 30px; font-weight: bold; text-align:center; " class="section-title">Food From Indonesia </p>
+                <div class="container-custome shop-page">
+                  <div class="cof-header">
+                      <div class="box-title">
+                          <div class="box-title-content">
+                              <p style="font-size: 30px; font-weight: bold; text-align:center; " class="section-title">Food From Indonesia </p>
+                           
+                          </div>
+                      </div>
                      
-                    </div>
-                </div>
-               
+            
       
-
-      <section class="menu-makanan">  
-      <table>
-      <tr>
-                <td>
-         <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/papeda-papua.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center;">Papeda-Papua</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Makanan berupa bubur sagu yang kerap dimakan bersama mubara atau ikan tongkol yang dibumbui dengan kunyit</p>
-                </div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-                    </td>
-                    <td>
-            <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/rendang-sumatraBarat.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Rendang-Sumatra</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Masakan daging asli Indonesia yang dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan</p></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </td>
-
-            <td>
-            <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/nasiLiwet-jawa.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Nasi Liwet-Jawa Tengah</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Nasi gurih dimasak dengan kelapa, yang disajikan dengan sayur labu siam, suwiran ayam dan areh</p></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </td>
-
-            <td>
-            <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/rawon-jawatimur.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Rawon-JawaTimur</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Masakan Indonesia berupa sup daging berkuah hitam dengan campuran bumbu khas yang menggunakan kluwek</p></div>
-                </div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            </td>
-                </tr>
-                </div>
-            </table>   
-
-
-        <div class="makanan2" style="padding-top:50px;"> 
-      <table>
-      <tr>
-                <td>
-         <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/lemang-medan2.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Lemang-Medan</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar daun pisang</p></div></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-                    </td>
-
-                    <td>
-         <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/Ganganmanuk-kalimantan.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Gangan Manok-Kalimantan Timur</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Sayur bening sejenis dengan makanan bakso dengan pelengkap bola-bola ayam</p></div></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-                    </td>
-
-                    <td>
-         <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/nasiayamsemarang-semarang.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">NasiAyam-Semarang</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Makanan dari suwiran daging ayam, sambal goreng labu siam dan krecek, tahu putih, dan telur pindang laludi kasih dengan kuah santan.</p></div></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-                    </td>
-
-                    <td>
-         <div class="list-product">
-            <div class="container-fluid">
-            <div class="row"style="padding-bottom:-1000px;">
-             <div class="col"> 
-                 <div class="card">
-            <img src="./img/gadogado-betawi.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="text">
-                <p style="font-size:15px; text-align:center">Gado Gado-Betawi</p>
-                <hr>
-                <p style="font-size:10px; text-align:center;" >Makanan dari sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang tanahyang dihaluskan disertai irisan telur</p></div></div>
-                <div class="card">
-                </div>
-            </div></div>
-            </div>
-            </div>
-            </div>
-            </div>
-                    </td>
-
-                    
-        </tr>
-            </table>
-   </div> 
-    </section>    
-
- </section>
-<!-- akhir menu makanan  -->
+            <section class="menu-makanan">  
+            <table>
+            <tr>
+                      <td>
+               <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="img/papeda-papua.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center;">Papeda-Papua</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Makanan berupa bubur sagu yang kerap dimakan bersama mubara atau ikan tongkol yang dibumbui dengan kunyit</p>
+                      </div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                          </td>
+                          <td>
+                  <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/rendang-sumatraBarat.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Rendang-Sumatra</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Masakan daging asli Indonesia yang dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan</p></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </td>
+      
+                  <td>
+                  <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/nasiLiwet-jawa.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Nasi Liwet-Jawa Tengah</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Nasi gurih dimasak dengan kelapa, yang disajikan dengan sayur labu siam, suwiran ayam dan areh</p></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </td>
+      
+                  <td>
+                  <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/rawon-jawatimur.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Rawon-JawaTimur</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Masakan Indonesia berupa sup daging berkuah hitam dengan campuran bumbu khas yang menggunakan kluwek</p></div>
+                      </div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </td>
+                      </tr>
+                      </div>
+                  </table>   
+      
+      
+              <div class="makanan2" style="padding-top:50px;"> 
+            <table>
+            <tr>
+                      <td>
+               <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/lemang-medan2.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Lemang-Medan</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar daun pisang</p></div></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                          </td>
+      
+                          <td>
+               <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/Ganganmanuk-kalimantan.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Gangan Manok-Kalimantan Timur</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Sayur bening sejenis dengan makanan bakso dengan pelengkap bola-bola ayam</p></div></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                          </td>
+      
+                          <td>
+               <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/nasiayamsemarang-semarang.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">NasiAyam-Semarang</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Makanan dari suwiran daging ayam, sambal goreng labu siam dan krecek, tahu putih, dan telur pindang laludi kasih dengan kuah santan.</p></div></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                          </td>
+      
+                          <td>
+               <div class="list-product">
+                  <div class="container-fluid">
+                  <div class="row"style="padding-bottom:-1000px;">
+                   <div class="col"> 
+                       <div class="card">
+                  <img src="./img/gadogado-betawi.jpg" alt="Avatar" class="img-fluid">
+                  <div class="overlay">
+                      <div class="text">
+                      <p style="font-size:15px; text-align:center">Gado Gado-Betawi</p>
+                      <hr>
+                      <p style="font-size:10px; text-align:center;" >Makanan dari sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang tanahyang dihaluskan disertai irisan telur</p></div></div>
+                      <div class="card">
+                      </div>
+                  </div></div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                          </td>
+      
+                          
+              </tr>
+                  </table>
+         </div> 
+          </section>    
+      
+       </section>
+        
+           <!-- akhir menu makanan  -->
     <!-- card minuman -->
     <div class="container">
         <div class="container-custome shop-page best-kopi" id="best-kopi">
             <div class="cof-header">
                 <div class="box-title">
                     <div class="box-title-content">
-                        <p style="font-size: 28px; font-weight: bold;" class="section-title"> All About Drink</p>
+                        <p style="font-size: 28px; font-weight: bold; color: black;" class="section-title"> All About Drink</p>
                     </div>
                 </div>
                 <section class="menu-minuman" style="margin-top:-40px;">
@@ -498,11 +532,11 @@ navbar -->
                         <tr>
                             <td>
                                 <div class="list-product">
-                                    <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                                    <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
                                         <div class="row" style="padding-bottom:-1000px;">
                                             <div class="col">
                                                 <div class="card">
-                                                    <img src="img/drk 1.jpg" alt="Avatar" class="image">
+                                                    <img src="img/drk 1.jpg" alt="Avatar" class="image" style="height:210px;">
                                                     <div class="overlay1">
                                                         <div class="text">
                                                             <p class="tx">Ice Blended</p>
@@ -520,11 +554,11 @@ navbar -->
 
             <td>
                 <div class="list-product">
-                    <div class="container-fluid" style="margin-right: 5px;">
+                    <div class="container-fluid">
                         <div class="row" style="padding-bottom:-1000px;">
                             <div class="col">
                                 <div class="card">
-                                    <img src="img/drk 2.jpeg" alt="Avatar" class="image">
+                                    <img src="img/drk 2.jpeg" alt="Avatar" class="image" style="height:210px;">
                                     <div class="overlay1">
                                         <div class="text">
                                             <p style="font-size:15px; text-align:center">Ice coffe Milk</p>
@@ -542,11 +576,11 @@ navbar -->
 
         <td>
             <div class="list-product">
-                <div class="container-fluid" style="margin-right:5px;">
+                <div class="container-fluid" style="margin-left:120px;">
                     <div class="row" style="padding-bottom:-1000px;">
                         <div class="col">
                             <div class="card">
-                                <img src="img/drk 3.jpg" alt="Avatar" class="image">
+                                <img src="img/drk 3.jpg" alt="Avatar" class="image" style="height:210px;">
                                 <div class="overlay1">
                                     <div class="text">
                                         <p style="font-size:15px; text-align:center">Mojito Deep Blue</p>
@@ -564,11 +598,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/drk 4.jpg" alt="Avatar" class="image">
+                            <img src="img/drk 4.jpg" alt="Avatar" class="image" style="height:210px;">
                             <div class="overlay1">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Bir Pletok Betawi</p>
@@ -592,11 +626,11 @@ navbar -->
             <tr>
                 <td>
                     <div class="list-product">
-                        <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                        <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
                             <div class="row" style="padding-bottom:-1000px;">
                                 <div class="col">
                                     <div class="card">
-                                        <img src="img/drk 5.jpg" alt="Avatar" class="image">
+                                        <img src="img/drk 5.jpg" alt="Avatar" class="image" style="height:220px;">
                                         <div class="overlay2">
                                             <div class="text">
                                                 <p class="tx">Brown Sugar Boba Milk</p>
@@ -614,11 +648,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right: 5px;">
+            <div class="container-fluid">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/drk 6.jpg" alt="Avatar" class="image">
+                            <img src="img/drk 6.jpg" alt="Avatar" class="image" style="height:210px;">
                             <div class="overlay2">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">coffe hot</p>
@@ -637,11 +671,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:120px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/drk 7.jpeg" alt="Avatar" class="image">
+                            <img src="img/drk 7.jpeg" alt="Avatar" class="image" style="height:210px;">
                             <div class="overlay2">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Green Tea Latte</p>
@@ -659,11 +693,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/drk 8.jpg" alt="Avatar" class="image">
+                            <img src="img/drk 8.jpg" alt="Avatar" class="image" style="height:230px;">
                             <div class="overlay2">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Milkshake Float</p>
@@ -690,7 +724,7 @@ navbar -->
         <div class="cof-header">
             <div class="box-title">
                 <div class="box-title-content">
-                    <p style="font-size: 28px; font-weight: bold;" class="section-title">All About Dessert </p>
+                    <p style="font-size: 28px; font-weight: bold; color:black" class="section-title">All About Dessert </p>
                 </div>
             </div>
             <section class="menu-dessert" style="margin-top:-40px;">
@@ -698,11 +732,11 @@ navbar -->
                     <tr>
                         <td>
                             <div class="list-product">
-                                <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                                <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
                                     <div class="row" style="padding-bottom:-1000px;">
                                         <div class="col">
                                             <div class="card">
-                                                <img src="img/disert 1.jpg" alt="Avatar" class="image">
+                                                <img src="img/disert 1.jpg" alt="Avatar" class="image" style="height:220px;">
                                                 <div class="overlay3">
                                                     <div class="text">
                                                         <p class="tx">Cupcake Chocolate</p>
@@ -720,11 +754,11 @@ navbar -->
 
         <td>
             <div class="list-product">
-                <div class="container-fluid" style="margin-right: 5px;">
+                <div class="container-fluid">
                     <div class="row" style="padding-bottom:-1000px;">
                         <div class="col">
                             <div class="card">
-                                <img src="img/disert 2.jpg" alt="Avatar" class="image">
+                                <img src="img/disert 2.jpg" alt="Avatar" class="image" style="height:220px;">
                                 <div class="overlay3">
                                     <div class="text">
                                         <p style="font-size:15px; text-align:center">Cake Dessert Food</p>
@@ -742,11 +776,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:120px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/disert 3.jpg" alt="Avatar" class="image">
+                            <img src="img/disert3.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay3">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Baked Egg Custard</p>
@@ -764,11 +798,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/disert 4.jpg" alt="Avatar" class="image">
+                            <img src="img/disert4.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay3">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Ice Cream Sandwich</p>
@@ -791,11 +825,11 @@ navbar -->
             <tr>
                 <td>
                     <div class="list-product">
-                        <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                        <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
                             <div class="row" style="padding-bottom:-1000px;">
                                 <div class="col">
                                     <div class="card">
-                                        <img src="img/disert 5.jpg" alt="Avatar" class="image">
+                                        <img src="img/disert5.png" alt="Avatar" class="image" style="height:200px;">
                                         <div class="overlay4">
                                             <div class="text">
                                                 <p class="tx">Cranberry-pear Pie</p>
@@ -813,11 +847,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right: 5px;">
+            <div class="container-fluid">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/disert 6.jpg" alt="Avatar" class="image">
+                            <img src="img/disert6.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay4">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Permen Caramel</p>
@@ -836,11 +870,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:120px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/disert 7.jpg" alt="Avatar" class="image">
+                            <img src="img/disert 7.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay4">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Chocolate Lava Cake</p>
@@ -858,11 +892,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/disert 8.jpg" alt="Avatar" class="image">
+                            <img src="img/disert8.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay4">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Vanilla Cream Puff</p>
@@ -889,7 +923,7 @@ navbar -->
         <div class="cof-header">
             <div class="box-title">
                 <div class="box-title-content">
-                    <p style="font-size: 28px; font-weight: bold;" class="section-title">All About Snack </p>
+                    <p style="font-size: 28px; font-weight: bold; color:black;" class="section-title">All About Snack </p>
                 </div>
             </div>
             <section class="menu-snack" style="margin-top:-40px;">
@@ -897,11 +931,11 @@ navbar -->
                     <tr>
                         <td>
                             <div class="list-product">
-                                <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                                <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
                                     <div class="row" style="padding-bottom:-1000px;">
                                         <div class="col">
                                             <div class="card">
-                                                <img src="img/cmln1.png" alt="Avatar" class="image">
+                                                <img src="img/cmln1.png" alt="Avatar" class="image" style="height:220px;">
                                                 <div class="overlay5">
                                                     <div class="text">
                                                         <p class="tx">Batagor</p>
@@ -919,11 +953,11 @@ navbar -->
 
         <td>
             <div class="list-product">
-                <div class="container-fluid" style="margin-right: 5px;">
+                <div class="container-fluid">
                     <div class="row" style="padding-bottom:-1000px;">
                         <div class="col">
                             <div class="card">
-                                <img src="img/cemilan2.jpg" alt="Avatar" class="image">
+                                <img src="img/cemilan2.jpg" alt="Avatar" class="image" style="height:220px;">
                                 <div class="overlay5">
                                     <div class="text">
                                         <p style="font-size:15px; text-align:center">Siomay</p>
@@ -941,11 +975,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:120px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/tahug.jpg" alt="Avatar" class="image">
+                            <img src="img/tahug.jpg" alt="Avatar" class="image" style="height:200px;">
                             <div class="overlay5">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Tahu Gejrot</p>
@@ -963,11 +997,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/cemilan4.jpg" alt="Avatar" class="image">
+                            <img src="img/cemilan4.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay5">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Cilok</p>
@@ -990,11 +1024,11 @@ navbar -->
             <tr>
                 <td>
                     <div class="list-product">
-                        <div class="container-fluid" style="margin-left:-20px; margin-right:5px;">
+                        <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;margin-bottom:100px;">
                             <div class="row" style="padding-bottom:-1000px;">
                                 <div class="col">
                                     <div class="card">
-                                        <img src="img/bacil.jpg" alt="Avatar" class="image">
+                                        <img src="img/bacil.jpg" alt="Avatar" class="image" style="height:200px;">
                                         <div class="overlay5">
                                             <div class="text">
                                                 <p class="tx">Bacil</p>
@@ -1012,11 +1046,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right: 5px;">
+            <div class="container-fluid" style="margin-bottom:100px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/cemilan6.jpg" alt="Avatar" class="image">
+                            <img src="img/cemilan6.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay5">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Telur Gulung</p>
@@ -1035,11 +1069,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:120px;margin-bottom:100px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/cemilan7.jpg" alt="Avatar" class="image">
+                            <img src="img/cemilan7.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay5">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Sosis Bakar</p>
@@ -1057,11 +1091,11 @@ navbar -->
 
     <td>
         <div class="list-product">
-            <div class="container-fluid" style="margin-right:5px;">
+            <div class="container-fluid" style="margin-left:15px;margin-bottom:100px;">
                 <div class="row" style="padding-bottom:-1000px;">
                     <div class="col">
                         <div class="card">
-                            <img src="img/cemilan3.jpg" alt="Avatar" class="image">
+                            <img src="img/cemilan3.jpg" alt="Avatar" class="image" style="height:220px;">
                             <div class="overlay5">
                                 <div class="text">
                                     <p style="font-size:15px; text-align:center">Dimsum Ayam</p>
@@ -1084,7 +1118,7 @@ navbar -->
     <!-- akhir cemilan -->
     </div>
 </div>
-<div id="container2" class="container2">
+<div id="container2" class="container2" style="background-image: url(../img/bg2.jpg); width:1279px;">
 		<div id="scene" class="scene">
 			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;margin-top: 50px;"></div>
             <div class="article">
@@ -1162,9 +1196,9 @@ navbar -->
                     <tr>
                     </tr>
                 </table>
-
+            </div>
         <div class="site-footer">
-            <p style="letter-spacing: 1px; color: black;">Copyright © 2021 Female Court. All Rights Reserved </p>
+            <p style="letter-spacing: 1px; color: white;margin-top:-20px;">Copyright © 2021 Female Court. All Rights Reserved </p>
         </div>
 </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>

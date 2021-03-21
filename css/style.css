@@ -65,33 +65,13 @@ menggunakan padding-top disetiap section*/
 .container {
     position: relative;
     width: 50%;
-  }
+  /* } */
   
   .image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 220px;
   }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-  }
-  
-  .container:hover .overlay {
-    width: 100%;
-    left: 0;
-  }
-  
-  .text {
-=======
 .card{
     width: 265px;
     height: 200px;
@@ -152,7 +132,6 @@ menggunakan padding-top disetiap section*/
     height: 200px;
 }
 .text {
->>>>>>> anggota1
     color: white;
     font-size: 20px;
     position: absolute;
@@ -163,7 +142,6 @@ menggunakan padding-top disetiap section*/
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-  */
 .btn-group{
     width: 500px;
     border-radius: 0px;
@@ -231,7 +209,7 @@ menggunakan padding-top disetiap section*/
 }
 .footer-section{
     margin-top: 160px;
-    height: 500px;
+    height: 550px;
 }
 .label1{
     margin-left: 50px;
@@ -243,11 +221,13 @@ menggunakan padding-top disetiap section*/
 }
 
 .container2{
-    background: url("../img/bg.jpg") no-repeat;
+    /* background: url("../img/bg2.jpg") no-repeat; */
     width: 100%;
     overflow: hidden;
     margin-bottom: -100px;
     height: 800px;
+    margin-left: -90px;
+    margin-right: -100px;
 }
 .scroll {
     color: #fff;
@@ -354,4 +334,16 @@ menggunakan padding-top disetiap section*/
 .container-fluid:hover .overlay5 {
     opacity: 1;
 }
-
+.parallax {
+    /* The image used */
+    background-image: url("../img/coba.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
