@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script type="text/javascript" src="../js/scroll.js"></script>
+    <script type="text/javascript" src="../js/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
     <!-- About -->
         <!-- <div id="about" class="aboutt">
         <div class="article">
@@ -32,7 +35,7 @@
     </div> -->
     <div id="container2" class="container2">
 		<div id="scene" class="scene">
-			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;"></div>
+			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;margin-top: 50px;"></div>
             <div class="article">
             <h1 class="ah1">About</h1>
                 <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quam cum distinctio, sunt dolor vitae accusamus, 
@@ -56,7 +59,7 @@
 <div class="footer-widget">
     <div class="row">
         <div class="col-lg-3 col-sm-6">
-            <div class="single-footer-widget">
+        <div class="single-footer-widget">
                 <table width="100%" class="table">
                     <tr>
                         <td>
@@ -101,7 +104,7 @@
                         <td>
                             <div class="label1">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.705236475695!2d107.13949661395117!3d-6.805666368453325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6852e697990cef%3A0x2ddbb36bc8af404e!2sUniversitas%20Suryakancana!5e0!3m2!1sid!2sid!4v1615167700312!5m2!1sid!2sid" 
-                            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            width="400" height="250" style="border:0; margin-left:80px;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </td>
                     </tr>
@@ -112,8 +115,9 @@
         </div>
     </div>
 </div>
+
         <div class="site-footer">
-            <p style="letter-spacing: 1px;">Copyright © 2021 Female Court. All Rights Reserved </p>
+            <p style="letter-spacing: 1px; color: black;">Copyright © 2021 Female Court. All Rights Reserved </p>
         </div>
 </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
