@@ -7,123 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="./css/gaya.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script type="text/javascript" src="../js/scroll.js"></script>
     <script type="text/javascript" src="../js/ScrollTrigger.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 
 </head>
-    <!--css -->
-    <style>
-       body,html {
-        height: 100%;
-       }
-       .navbar-brand {
-            padding-left:50px;
-           
-       }
-       
-            @media (min-width: 900px) {
-            .card {
-                width: 16rem;
-            }
-            }
 
-            .nav-item a {
-                text-transform: uppercase;
-                /* color: grey !important; */
-                font: "Roboto";
-                font-size: 15px;
-                letter-spacing: 1,5px;
-                text-decoration: none;
-                outline: none;
-                margin: 0 34px;
-                cursor: pointer;
-               
-                }
-
-            .nav-item a:hover,
-            .nav-item a:active {
-                text-decoration: underline;
-                font-weight: bold;
-                
-                }
-
-                .box-title-content {
-                    margin: -1.5rem auto 5rem auto;
-                    padding: 1rem;
-                    width: 600px;
-                    text-align: center;
-                    background-color: transparent;
-                    border: 2px solid black;
-                    color: white;
-                    /* margin: 10px -15px -15px; */
-                }
-
-             /* coba */
-             .container-fluid {
-                position: relative;
-                width: 30%;
-                }
-
-                .image {
-                display: block;
-                width: 100%;
-                height: auto;
-                }
-
-                .overlay {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                background-image: linear-gradient(to bottom right,transparent, black);
-                /* background-color:  grey !important; */
-                overflow: hidden;
-                width: 100%;
-                height: 100%;
-                -webkit-transform: scale(0);
-                -ms-transform: scale(0);
-                transform: scale(0);
-                -webkit-transition: .3s ease;
-                transition: .3s ease;
-                
-                }
-
-                .container-fluid:hover .overlay {
-                -webkit-transform: scale(1);
-                -ms-transform: scale(1);
-                transform: scale(1);
-               
-                }
-
-                .text {
-                color: white;
-                font-size: 20px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align:center;
-
-                        
-                }
-                
-                .food .list-product {
-                    opacity:0;
-
-                }
-
-                .food .list-produk.muncul{
-                    opacity:1;
-                }
-                                
-    </style>
-    <!-- akhir css -->
 <body>
+<div class="container">
     <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 <!-- navbar --> -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -269,208 +163,207 @@
 
     <!-- akhir menu  -->
 </div>
-    <section class="food" id="food" style="padding-top:100px;  background-image: url('img/4backmakanan.jpg');  padding-top:100px; margin-top:70px; background-size:cover; min-height:100vh";>
-                
-        
-                <div class="container-custome shop-page">
-                  <div class="cof-header">
-                      <div class="box-title">
-                          <div class="box-title-content">
-                              <p style="font-size: 30px; font-weight: bold; text-align:center; " class="section-title">Food From Indonesia </p>
-                           
-                          </div>
-                      </div>
-                     
-            
-      
-            <section class="menu-makanan">  
-            <table>
+ <!-- menu makanan  -->
+ <div class="container" id="minuman">
+        <div class="container-custome shop-page best-kopi" id="best-kopi">
+            <div class="cof-header">
+                <div class="box-title">
+                    <div class="box-title-content">
+                        <p style="font-size: 28px; font-weight: bold; color: black;" class="section-title"> About From Indonesia</p>
+                    </div>
+                </div>
+                <section class="menu-minuman" style="margin-top:-40px;">
+                    <table class="container">
+                        <tr>
+                            <td>
+                                <div class="list-product">
+                                    <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
+                                        <div class="row" style="padding-bottom:-1000px;">
+                                            <div class="col">
+                                            <div class="card">
+            <img src="./img/papeda-papua.jpg" alt="Avatar" class="img-fluid">
+            <div class="overlay">
+                <div class="text">
+                <p style="font-size:15px; text-align:center;">Papeda-Papua</p>
+                <hr>
+                <p style="font-size:10px; text-align:center;" >Makanan berupa bubur sagu yang kerap dimakan bersama mubara atau ikan tongkol yang dibumbui dengan kunyit</p>
+                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="list-product">
+                    <div class="container-fluid">
+                        <div class="row" style="padding-bottom:-1000px;">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/drk 2.jpeg" alt="Avatar" class="image" style="height:210px;">
+                                    <div class="overlay1">
+                                        <div class="text">
+                                            <p style="font-size:15px; text-align:center">Ice coffe Milk</p>
+                                            <hr>
+                                            <p style="font-size:10px; text-align:center;">Es kopi susu kekinian dapat dibuat dengan menambahkan gula aren cair. Minuman ini bisa disajikan untuk ngopi pagi sembari sarapan.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </td>
+
+        <td>
+            <div class="list-product">
+                <div class="container-fluid" style="margin-left:120px;">
+                    <div class="row" style="padding-bottom:-1000px;">
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/drk 3.jpg" alt="Avatar" class="image" style="height:210px;">
+                                <div class="overlay1">
+                                    <div class="text">
+                                        <p style="font-size:15px; text-align:center">Mojito Deep Blue</p>
+                                        <hr>
+                                        <p style="font-size:10px; text-align:center;">Minuman mojito dengan perpaduan rasa blueberry dengan sunquick menjadi rasa minuman lezat.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </td>
+
+    <td>
+        <div class="list-product">
+            <div class="container-fluid" style="margin-left:15px;">
+                <div class="row" style="padding-bottom:-1000px;">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/drk 4.jpg" alt="Avatar" class="image" style="height:210px;">
+                            <div class="overlay1">
+                                <div class="text">
+                                    <p style="font-size:15px; text-align:center">Bir Pletok Betawi</p>
+                                    <hr>
+                                    <p style="font-size:10px; text-align:center;">Minuman ini merupakan minuan penyegar yang dibuat dari campuran rempah-rempah. bir ini minuman yang sangat terkenal di kalangan masyarakat betawi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </td>
+    </tr>
+    </table>
+    <!-- minuman ke 2 -->
+    <div class="minuman2">
+        <table>
             <tr>
-                      <td>
-               <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="img/papeda-papua.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center;">Papeda-Papua</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Makanan berupa bubur sagu yang kerap dimakan bersama mubara atau ikan tongkol yang dibumbui dengan kunyit</p>
-                      </div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                          </td>
-                          <td>
-                  <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/rendang-sumatraBarat.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Rendang-Sumatra</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Masakan daging asli Indonesia yang dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan</p></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </td>
-      
-                  <td>
-                  <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/nasiLiwet-jawa.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Nasi Liwet-Jawa Tengah</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Nasi gurih dimasak dengan kelapa, yang disajikan dengan sayur labu siam, suwiran ayam dan areh</p></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </td>
-      
-                  <td>
-                  <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/rawon-jawatimur.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Rawon-JawaTimur</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Masakan Indonesia berupa sup daging berkuah hitam dengan campuran bumbu khas yang menggunakan kluwek</p></div>
-                      </div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </td>
-                      </tr>
-                      </div>
-                  </table>   
-      
-      
-              <div class="makanan2" style="padding-top:50px;"> 
-            <table>
-            <tr>
-                      <td>
-               <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/lemang-medan2.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Lemang-Medan</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar daun pisang</p></div></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                          </td>
-      
-                          <td>
-               <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/Ganganmanuk-kalimantan.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Gangan Manok-Kalimantan Timur</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Sayur bening sejenis dengan makanan bakso dengan pelengkap bola-bola ayam</p></div></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                          </td>
-      
-                          <td>
-               <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/nasiayamsemarang-semarang.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">NasiAyam-Semarang</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Makanan dari suwiran daging ayam, sambal goreng labu siam dan krecek, tahu putih, dan telur pindang laludi kasih dengan kuah santan.</p></div></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                          </td>
-      
-                          <td>
-               <div class="list-product">
-                  <div class="container-fluid">
-                  <div class="row"style="padding-bottom:-1000px;">
-                   <div class="col"> 
-                       <div class="card">
-                  <img src="./img/gadogado-betawi.jpg" alt="Avatar" class="img-fluid">
-                  <div class="overlay">
-                      <div class="text">
-                      <p style="font-size:15px; text-align:center">Gado Gado-Betawi</p>
-                      <hr>
-                      <p style="font-size:10px; text-align:center;" >Makanan dari sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang tanahyang dihaluskan disertai irisan telur</p></div></div>
-                      <div class="card">
-                      </div>
-                  </div></div>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                          </td>
-      
-                          
-              </tr>
-                  </table>
-         </div> 
-          </section>    
-      
-       </section>
-        
-           <!-- akhir menu makanan  -->
+                <td>
+                    <div class="list-product">
+                        <div class="container-fluid" style="margin-left:-20px; margin-right:-80px;">
+                            <div class="row" style="padding-bottom:-1000px;">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="img/drk 5.jpg" alt="Avatar" class="image" style="height:220px;">
+                                        <div class="overlay2">
+                                            <div class="text">
+                                                <p class="tx">Brown Sugar Boba Milk</p>
+                                                <hr>
+                                                <p class="txb">Brown sugar milk tea, minuman teh kekinian yang biasanya dilengkapi dengan topping boba atau pearl ini digandrungi anak-anak hingga dewasa.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    </td>
+
+    <td>
+        <div class="list-product">
+            <div class="container-fluid">
+                <div class="row" style="padding-bottom:-1000px;">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/drk 6.jpg" alt="Avatar" class="image" style="height:210px;">
+                            <div class="overlay2">
+                                <div class="text">
+                                    <p style="font-size:15px; text-align:center">coffe hot</p>
+                                    <hr>
+                                    <p style="font-size:10px; text-align:center;">Kopi adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk. komoditas yang dibudidayakan lebih dari 50 negara.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </td>
+
+    <td>
+        <div class="list-product">
+            <div class="container-fluid" style="margin-left:120px;">
+                <div class="row" style="padding-bottom:-1000px;">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/drk 7.jpeg" alt="Avatar" class="image" style="height:210px;">
+                            <div class="overlay2">
+                                <div class="text">
+                                    <p style="font-size:15px; text-align:center">Green Tea Latte</p>
+                                    <hr>
+                                    <p style="font-size:10px; text-align:center;">Green teaadalah minuman paling sehat yang kaya akan antioksidan dan nutrisi. Selain itu rasa yang bikin ketagihan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </td>
+
+    <td>
+        <div class="list-product">
+            <div class="container-fluid" style="margin-left:15px;">
+                <div class="row" style="padding-bottom:-1000px;">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/drk 8.jpg" alt="Avatar" class="image" style="height:230px;">
+                            <div class="overlay2">
+                                <div class="text">
+                                    <p style="font-size:15px; text-align:center">Milkshake Float</p>
+                                    <hr>
+                                    <p style="font-size:10px; text-align:center;">Minuman kekinian yang digemari orang karena bukan hanya asik sebagai teman ngobrol, melainkan juga bisa jadi bahan untuk post di Instagram.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    </section>
+   
+ <!-- akhir makanan -->
     <!-- card minuman -->
     <div class="container" id="minuman">
         <div class="container-custome shop-page best-kopi" id="best-kopi">
@@ -1071,6 +964,29 @@
     <!-- akhir cemilan -->
     </div>
 </div>
+<!-- About -->
+<section id="about">
+    <div class="container">
+      <div class="row about mb-5 pt-5">
+        <div class="col text-center">
+          <h2>ABOUT</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="gambar col-lg-6">
+        <div id="container2" class="container2" style="background-image: url(../img/bg2.jpg); width:1279px;">
+		<div id="scene" class="scene">
+			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;margin-top: 50px;"></div>
+        </div>
+        <div class="col-lg-5">
+          <h3 class="pKanan">This is <span>US</span></h3>
+          <p>We are a group of 8 of advanced Web Programming courses, from the task given by lecturers as PWL teachers, we carry the theme of the group portfolio website consisting of 5 sections, the number of our members is 4 people with different jobdesc from each personnel</p>
+          <a href="#" class="btn btn-secondary button">Join Us !</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END ABOUT -->
 <div id="container2" class="container2" style="background-image: url(../img/bg2.jpg); width:1279px;">
 		<div id="scene" class="scene">
 			<div data-depth="0.60"><img src="../img/roti.png" style="width:200px; height:200px;margin-top: 50px;"></div>
@@ -1154,19 +1070,17 @@
             <p style="letter-spacing: 1px; color: white;margin-top:-20px;">Copyright © 2021 Female Court. All Rights Reserved </p>
         </div>
 </footer>
+</
+</div>
+</div>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script>
         var scene = document.getElementById('scene');
         var parallax = new Parallax(scene);
     </script>
-    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    
 
-    <!-- <script>
-    //paralax menu makanan
-    if( wScroll > 100 ) {
-        console.log('ok'); 
-    } 
-    </script> -->
+   
 </body>
 
 </html>
